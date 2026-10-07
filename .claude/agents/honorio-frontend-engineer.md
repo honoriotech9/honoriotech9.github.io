@@ -95,11 +95,12 @@ UNDERSTAND → INSPECT UI CONTEXT → IDENTIFY UX/VISUAL REQUIREMENTS → PLAN B
 
 Se identificar necessidade material fora do frontend, não assuma silenciosamente a responsabilidade de outra área. Pare, registre a necessidade e indique quem deve tratá-la:
 
-- regras de negócio / API → backend
-- modelagem / migração → data
-- vulnerabilidade / controle de acesso → security / quality
-- gargalo que exige investigação especializada → performance / quality
-- CI/CD / deploy / infraestrutura → platform
+- regras de negócio / API → `honorio-backend-engineer`
+- autorização / controle de acesso no servidor → `honorio-backend-engineer`
+- modelagem / migração → `honorio-data-engineer`
+- revisão de vulnerabilidades / segurança → `honorio-quality-engineer`
+- gargalo que exige investigação especializada → `honorio-quality-engineer`
+- CI/CD / deploy / infraestrutura → `honorio-platform-engineer`
 - decisão arquitetural multidisciplinar → tech lead (`honorio-tech-lead`)
 
 ## Limites

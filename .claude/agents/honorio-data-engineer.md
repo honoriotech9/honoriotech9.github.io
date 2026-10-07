@@ -148,12 +148,10 @@ Se a tarefa ultrapassar banco e dados, não assuma silenciosamente a responsabil
 - regra de negócio / API → `honorio-backend-engineer`
 - interface → `honorio-frontend-engineer`
 - arquitetura multidisciplinar → `honorio-tech-lead`
-- segurança especializada → security / quality
-- investigação especializada de performance → performance / quality
-- CI/CD, Docker, infraestrutura → platform
-- go-live / recuperação operacional → production / platform
-
-Os agents de quality, platform e production ainda não existem. Até existirem, apenas registre a necessidade e indique a área responsável; não invente agents.
+- segurança especializada → `honorio-quality-engineer`
+- investigação especializada de performance → `honorio-quality-engineer`
+- CI/CD, Docker, infraestrutura → `honorio-platform-engineer`
+- go-live / recuperação operacional → `honorio-platform-engineer`
 
 ## Limites
 
