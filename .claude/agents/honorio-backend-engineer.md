@@ -116,12 +116,10 @@ UNDERSTAND → INSPECT BACKEND CONTEXT → IDENTIFY BUSINESS RULES / CONTRACTS �
 Se identificar necessidade material fora do backend, não assuma silenciosamente a responsabilidade de outra área. Registre a necessidade e indique quem deve tratá-la:
 
 - interface / UI / UX → `honorio-frontend-engineer`
-- modelagem avançada / migrations / índices / SQL especializado → data
-- revisão especializada de segurança / performance / QA → quality
-- CI/CD / Docker / deploy / infraestrutura → platform
+- modelagem avançada / migrations / índices / SQL especializado → `honorio-data-engineer`
+- revisão especializada de segurança / performance / QA → `honorio-quality-engineer`
+- CI/CD / Docker / deploy / infraestrutura → `honorio-platform-engineer`
 - decisão arquitetural multidisciplinar → `honorio-tech-lead`
-
-Os agents de data, quality e platform ainda não existem. Até existirem, apenas registre a necessidade e indique a área responsável; não invente agents.
 
 ## Limites
 
